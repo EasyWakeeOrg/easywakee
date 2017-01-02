@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icone.ico"><!-- icone de l'onglet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -37,7 +38,7 @@
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#settings">
                 <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Your Settings</a>
             </li>
             <li>
@@ -50,21 +51,27 @@
     </nav><!-- #header-nav -->
   </header>
   <div class="main">
-    
+
       Here will be the main content of the page: users, details, params,...
+      <div id="settings">
+        <h2><span class="title">Your settings :</span></h2>
+        <ul>
+          <li>Time : 30 min <br>
+              Button show details<br>
+              When the button has been clicked on show the explanation of the setting
+              and why we need it
+          </li>
 
-      <h2>Your settings :</h2>
-      <ul>
-        <li>Time : 30 min <br>
-            Button show details<br>
-            When the button has been clicked on show the explanation of the setting
-            and why we need it
-        </li>
+          <li>Address</li>
+          <li>...</li>
 
-        <li>Address</li>
-        <li>...</li>
-
-      </ul>
+        </ul>
+      </div>
+      <footer>
+        <div class="footer">
+          EasyWakee&amp;Co Copyright &copy; 2017
+        </div>
+      </footer>
     </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
