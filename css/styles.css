@@ -3,14 +3,21 @@
   margin: 0;
 }
 
-body {
+body .main{
   font-size: 18px;
   color: black;
   background-color: #ADD8E6;
   font-family: 'Calibri', sans-serif;
+  padding-left: 10px;
 }
 
-/** HEADER **/
+.title{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/** Menu **/
 #header-nav {
   border-radius: 0px;
   border: 0px;
@@ -66,7 +73,6 @@ body {
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -94,7 +100,6 @@ body {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -111,6 +116,10 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-  /* End Header */
+}
 
+.footer {
+  text-align: center;
+  font-size: 0.7em;
+  font-style: italic;
 }
