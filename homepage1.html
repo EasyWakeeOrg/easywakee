@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,12 +14,12 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index" class="pull-left visible-md visible-lg">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
 
           <div class="navbar-brand">
-            <a href="index"><h1>EasyWakee!<br/>
+            <a href="index.html"><h1>EasyWakee!<br/>
               It makes your life easy
             </h1></a>
           </div>
@@ -55,32 +56,13 @@
       <h2>Your settings :</h2>
       <ul>
         <li>Time : 30 min <br>
-            <div id="Time desc", style="display:none;" class="answer_list" >
-				This is the time the time the user need to be ready to leave after waking up.
-			</div>
-			<input type="button" id="Time button" name="Show Time" value="Show description" onclick="afficheDetails('Time')" />
+            Button show details<br>
+            When the button has been clicked on show the explanation of the setting
+            and why we need it
         </li>
 
-        <li>Address<br>
-		48 Place de la mairie<br>
-		42 100 Saint-Etienne<br>
-		    <div id="Address desc", style="display:none;" class="answer_list" >
-				The address of the user is needed for computing the route from his house to his school/workplace.
-			</div>
-			<input type="button" id="Address button" name="Show Address" value="Show description" onclick="afficheDetails('Address')" />
-		</li>
-        
-		<li>Transport
-			<ol>
-				<li>Bus</li>
-				<li>Walking</li>
-				<li>Car</li>
-			</ol>
-		    <div id="Transport desc", style="display:none;" class="answer_list" >
-				What transport means the user is willing to use in his preference order.
-			</div>
-			<input type="button" id="Transport button" name="Show Transport" value="Show description" onclick="afficheDetails('Transport')" />		
-		</li>
+        <li>Address</li>
+        <li>...</li>
 
       </ul>
     </div>
@@ -89,6 +71,5 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/afficheDetails.js"></script>
 </body>
 </html>
