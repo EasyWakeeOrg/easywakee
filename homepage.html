@@ -53,21 +53,22 @@
   <div class="main">
 
       <h2>Your settings :</h2>
+	  
       <ul>
         <li>Time : 30 min <br>
-            <div id="Time desc", style="display:none;" class="answer_list" >
-				This is the time the time the user need to be ready to leave after waking up.
+            <div id="TimeDesc", style="display:none;" class="answer_list" >
+				This is the time the time the user need to be ready to leave after waking up. 
 			</div>
-			<input type="button" id="Time button" name="Show Time" value="Show description" onclick="afficheDetails('Time')" />
+			<input type="button" id="Time button" name="Show Time" value="Show description >>>" onclick="afficheDetails('TimeDesc')" />
         </li>
 
         <li>Address<br>
 		48 Place de la mairie<br>
 		42 100 Saint-Etienne<br>
-		    <div id="Address desc", style="display:none;" class="answer_list" >
+		    <div id="AddressDesc", style="display:none;" class="answer_list" >
 				The address of the user is needed for computing the route from his house to his school/workplace.
 			</div>
-			<input type="button" id="Address button" name="Show Address" value="Show description" onclick="afficheDetails('Address')" />
+			<input type="button" id="Address button" name="Show Address" value="Show description >>>" onclick="afficheDetails('AddressDesc')" />
 		</li>
         
 		<li>Transport
@@ -76,10 +77,10 @@
 				<li>Walking</li>
 				<li>Car</li>
 			</ol>
-		    <div id="Transport desc", style="display:none;" class="answer_list" >
+		    <div id="TransportDesc", style="display:none;" class="answer_list" >
 				What transport means the user is willing to use in his preference order.
 			</div>
-			<input type="button" id="Transport button" name="Show Transport" value="Show description" onclick="afficheDetails('Transport')" />		
+			<input type="button" id="Transport button" name="Show Transport" value="Show description >>>" onclick="afficheDetails('TransportDesc')" />		
 		</li>
       </ul>
       </div>
@@ -95,5 +96,5 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/afficheDetails.js"></script>
-</body>
+  </body>
 </html>
