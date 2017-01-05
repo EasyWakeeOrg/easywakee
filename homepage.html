@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -52,15 +51,15 @@
     </nav><!-- #header-nav -->
   </header>
   <div class="main">
-
-      <h2>Your settings :</h2>
-	  
-      <ul>
-        <li>Time : 30 min <br>
+      Here will be the main content of the page: users, details, params,...
+      <div id="settings">
+        <h2><span class="title">Your settings :</span></h2>
+        <ul>
+                <li>Time : 30 min <br>
             <div id="TimeDesc", style="display:none;" class="answer_list" >
 				This is the time the time the user need to be ready to leave after waking up. 
 			</div>
-			<input type="button" id="Time button" name="Show Time" value="Show description >>>" onclick="afficheDetails('TimeDesc')" />
+			<input type="button" id="Time button" name="Show Time" value="Hide/Show description >>>" onclick="afficheDetails('TimeDesc')" />
         </li>
 
         <li>Address<br>
@@ -69,7 +68,7 @@
 		    <div id="AddressDesc", style="display:none;" class="answer_list" >
 				The address of the user is needed for computing the route from his house to his school/workplace.
 			</div>
-			<input type="button" id="Address button" name="Show Address" value="Show description >>>" onclick="afficheDetails('AddressDesc')" />
+			<input type="button" id="Address button" name="Show Address" value="Hide/Show description >>>" onclick="afficheDetails('AddressDesc')" />
 		</li>
         
 		<li>Transport
@@ -81,9 +80,8 @@
 		    <div id="TransportDesc", style="display:none;" class="answer_list" >
 				What transport means the user is willing to use in his preference order.
 			</div>
-			<input type="button" id="Transport button" name="Show Transport" value="Show description >>>" onclick="afficheDetails('TransportDesc')" />		
+			<input type="button" id="Transport button" name="Show Transport" value="Hide/Show description >>>" onclick="afficheDetails('TransportDesc')" />		
 		</li>
-      </ul>
       </div>
       <footer>
         <div class="footer">
