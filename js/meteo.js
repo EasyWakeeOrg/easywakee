@@ -30,7 +30,7 @@ window.myWidgetParam = {
           var script = document.createElement('script');
           script.type = 'text/javascript';
           script.async = false;
-          script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
+          script.src = 'https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
           var s = document.getElementsByTagName('script')[0];
           s.parentNode.insertBefore(script, s);
         }

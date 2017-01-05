@@ -22,8 +22,8 @@ body .main{
 #openweathermap-widget{
   float: right;
   position: relative;
-  right: 100px;
-  bottom: 150px;
+  right: 10%;
+  bottom: 250px;
 }
 
 /** Menu **/
@@ -109,6 +109,10 @@ body .main{
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  #openweathermap-widget{
+    display: none;
+
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
