@@ -51,5 +51,6 @@ input#City{
 
 .background{
   background-color: #ADD8E6;
-  height: device-height
+  height: device-height;
+  text-align: center;
 }
