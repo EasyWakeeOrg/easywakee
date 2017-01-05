@@ -54,6 +54,10 @@ input#City{
   height: device-height
 }
 
+footer{
+  font-size: 0.9em;
+}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   fieldset{
