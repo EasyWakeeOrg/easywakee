@@ -24,20 +24,17 @@ window.myWidgetParam = {
       var i = 0;
       var response = "";
       var cityJson = JSON.parse(city.responseText); // Parse la reponse en Json
-      console.log(cityJson);
       window.myWidgetParam.cityid = cityJson.id;
-      console.log(window.myWidgetParam);
+      if(window.myWidgetParam.cityid !=0){
+      // Requête pour avoir le bon temps associé à la ville dans le span "City"
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.async = false;
+          script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(script, s);
+        }
     }
-
   //Appel de la fonction
   loadXMLDoc();
-
-  // Requête pour avoir le bon temps associé à la ville dans le span "City"
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.async = true;
-      script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
-      console.log(script);
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(script, s);
 });
