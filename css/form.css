@@ -1,0 +1,55 @@
+fieldset {
+width: 33%;
+  border-width: 2px;
+  border-style: groove;
+  padding-bottom: 10px;
+}
+
+legend {
+  font-size: 30px
+}
+
+input{
+  resize: none;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: #eee;
+  border-width: 2px;
+  width: 60%;
+}
+
+label {
+  width: 30%;
+  text-align: right;
+  padding: 2px;
+}
+
+label#CP{
+  width: 30.8%;
+}
+
+input#Nb{
+  width: 7.5%;
+}
+
+input#CP{
+  width: 12%;
+}
+
+input#Street{
+  width: 50.5%;
+}
+
+input#City{
+  width: 46%;
+}
+
+.bouton{
+  width:auto;
+  margin-left: 11%
+}
+
+.background{
+  background-color: #ADD8E6;
+  height: device-height
+}
