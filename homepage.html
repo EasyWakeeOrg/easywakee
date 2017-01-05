@@ -63,7 +63,7 @@
 
         <li>Address<br>
 		48 Place de la mairie<br>
-		42 100 Saint-Etienne<br>
+		<span id="CP">06000</span> <span id="City">Nice</span><br>
 		    <div id="AddressDesc", style="display:none;" class="answer_list" >
 				The address of the user is needed for computing the route from his house to his school/workplace.
 			</div>
@@ -82,6 +82,7 @@
 			<input type="button" id="Transport button" name="Show Transport" value="Hide/Show description >>>" onclick="afficheDetails('TransportDesc')" />
 		</li>
       </div>
+      <div id='openweathermap-widget'></div>
       <footer>
         <div class="footer">
           EasyWakee&amp;Co Copyright &copy; 2017
@@ -92,7 +93,7 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
   <script src="js/afficheDetails.js"></script>
+  <script src="js/meteo.js" type='text/javascript'></script>
   </body>
 </html>

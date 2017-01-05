@@ -10,12 +10,20 @@ body .main{
   font-family: 'Calibri', sans-serif;
   padding-left: 10px;
   margin: 0;
+  position: relative;
 }
 
 .title{
   font-size: 1.5em;
   font-weight: bold;
   font-family: 'Helvetica', sans-serif;
+}
+
+#openweathermap-widget{
+  float: right;
+  position: relative;
+  right: 100px;
+  bottom: 150px;
 }
 
 /** Menu **/
