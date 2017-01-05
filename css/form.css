@@ -46,10 +46,31 @@ input#City{
 
 .bouton{
   width:auto;
-  margin-left: 11%
+  margin-left: 39%
 }
 
 .background{
   background-color: #ADD8E6;
   height: device-height
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  fieldset{
+    width:50%
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  fieldset{
+    width:75%
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  fieldset{
+    width:100%
+  }
 }
