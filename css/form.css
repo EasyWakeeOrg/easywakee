@@ -37,16 +37,16 @@ input#CP{
 }
 
 input#Street{
-  width: 50.5%;
+  width: 51%;
 }
 
 input#City{
-  width: 46%;
+  width: 46.5%;
 }
 
 .bouton{
   width:auto;
-  margin-left: 39%
+  margin-left: 45%
 }
 
 .background{
@@ -63,6 +63,9 @@ footer{
   fieldset{
     width:50%
   }
+  .bouton{
+    margin-left: 49%
+  }
 }
 
 /********** Small devices only **********/
@@ -70,11 +73,17 @@ footer{
   fieldset{
     width:75%
   }
+  .bouton{
+    margin-left: 50.5%
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   fieldset{
     width:100%
+  }
+  .bouton{
+    margin-left: 50%
   }
 }
